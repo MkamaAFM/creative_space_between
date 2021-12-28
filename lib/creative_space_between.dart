@@ -1,7 +1,7 @@
 library creative_space_between;
 
-import 'package:creative_padding_values/creative_padding_values.dart';
-import 'package:creative_responsive_widget/creative_responsive_widget.dart';
+import 'package:creative_padding/padding_values.dart';
+import 'package:creative_responsive_values/responsive_widget.dart';
 import 'package:flutter/material.dart';
 
 class CreativeSpaceBetween extends StatelessWidget {

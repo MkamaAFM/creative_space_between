@@ -1,6 +1,6 @@
 name: creative_space_between
 description: A new Flutter package project.
-version: 0.0.1
+version: 0.0.3
 homepage:
 
 environment:
@@ -10,10 +10,12 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  creative_responsive_widget:
-    path: 'C:/Users/AFM/Desktop/WORKS/Flutter/flutter_packages/creative_responsive_widget'
-  creative_padding_values:
-    path: 'C:/Users/AFM/Desktop/WORKS/Flutter/flutter_packages/creative_padding_values'
+  creative_padding:
+    git:
+      url: https://github.com/MkamaAFM/creative_padding
+  creative_responsive_values:
+    git:
+      url: https://github.com/MkamaAFM/creative_responsive_values
 
 dev_dependencies:
   flutter_test:
